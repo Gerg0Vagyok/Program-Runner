@@ -1,6 +1,6 @@
 CC = gcc
 CFLAGS = `pkg-config --cflags --libs gtk+-3.0`
-TARGET = run
+TARGET = runner
 SRC = $(wildcard *.c)
 OBJ = $(SRC:.c=.o)
 
